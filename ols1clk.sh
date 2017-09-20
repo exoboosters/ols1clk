@@ -185,7 +185,7 @@ function check_os
                 OSVER=trusty
                 MARIADBCPUARCH="arch=amd64,i386,ppc64el"
             else
-                cat /etc/lsb-release | grep "DISTRIB_RELEASE=16." >/dev/null
+                cat /etc/lsb-release | grep "DISTRIB_RELEASE=18." >/dev/null
                 if [ $? = 0 ] ; then
                     OSNAMEVER=UBUNTU16
                     OSNAME=ubuntu
